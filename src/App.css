@@ -129,3 +129,78 @@
   border-radius: 50px; /* FULL GOL BUTTONS */
   /* baqi style wahi rahega */
 }
+/* Purana sara mita kar ye paste karein */
+.App {
+  text-align: center;
+  background-color: #0a0a0a;
+  min-height: 100vh;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.App-header { display: flex; flex-direction: column; align-items: center; padding: 20px; }
+
+.neon-title {
+  font-size: 3rem;
+  color: #00ffcc;
+  text-shadow: 0 0 20px #00ffcc;
+  margin-bottom: 5px;
+}
+
+.ai-insight-card {
+  background: rgba(0, 255, 204, 0.1);
+  border: 1px solid #00ffcc;
+  border-radius: 30px; /* GOL DESIGN */
+  padding: 15px 30px;
+  margin: 20px 0;
+  width: 80%;
+  box-shadow: 0 0 20px rgba(0, 255, 204, 0.2);
+}
+
+.ai-tagline { font-size: 0.7rem; color: #00ffcc; letter-spacing: 2px; margin: 0; }
+.ai-insight-text { font-size: 1.1rem; font-weight: bold; margin: 5px 0; }
+
+.dashboard-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  width: 95%;
+}
+
+.dashboard-card {
+  background: #111;
+  border: 1px solid #333;
+  border-radius: 40px; /* VERY ROUNDED */
+  padding: 25px;
+  width: 350px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.su-value { font-size: 4rem; color: #ff00ff; text-shadow: 0 0 15px #ff00ff; margin: 10px 0; }
+
+.neon-button {
+  background: transparent;
+  border: 2px solid #ff00ff;
+  color: #ff00ff;
+  padding: 12px 30px;
+  border-radius: 50px; /* PURE GOL BUTTONS */
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+
+.neon-button:hover {
+  background: #ff00ff;
+  color: white;
+  box-shadow: 0 0 20px #ff00ff;
+}
+
+.emergency { background-color: #200000; transition: 0.5s; }
+
+.neon-slider {
+  width: 100%;
+  accent-color: #00ffcc;
+  margin: 20px 0;
+}
