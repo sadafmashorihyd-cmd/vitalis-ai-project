@@ -115,3 +115,17 @@
   font-weight: bold;
   letter-spacing: 2px;
 }
+.ai-insight-box {
+  background: rgba(0, 255, 204, 0.1);
+  border: 1px solid #00ffcc;
+  border-radius: 25px; /* GOL LOOK */
+  padding: 15px;
+  margin: 20px auto;
+  width: 80%;
+  box-shadow: 0 0 15px rgba(0, 255, 204, 0.3);
+}
+
+.neon-button {
+  border-radius: 50px; /* FULL GOL BUTTONS */
+  /* baqi style wahi rahega */
+}
